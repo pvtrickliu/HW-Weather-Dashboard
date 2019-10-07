@@ -1,0 +1,17 @@
+
+#header {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+
+#hellobutton {
+    text-align: left;
+}
+
+.forecastC {
+    background-color: blue;
+    margin: 10px;
+    color:white;
+}

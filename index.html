@@ -8,12 +8,90 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Search for a city:</h2>
-    <input id = "location-input" />
-    <button id = "location-submit">Get Forecast</button>
-    <div class = "weather"></div>
-
+        <h1>
+            <p id="header">Weather Dashboard</p>
+        </h1>
+        
+            <div class="container">
+                <div class="row">
+        
+                    <div class="col-sm-3">
+                        <h2>Search for a City:</h2>
+        
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default" id="searchCityInput">
+                            <div class="input-group-prepend">
+                                <button class="input-group-text" id="inputGroup-sizing-default">Search</button>
+                            </div>
+                        </div>
+                        <ul class="list-group" id="previousSearched">
+        
+        
+                        </ul>
+                    </div>
+                    <div class="col-sm-9">
+                        <h3>
+                            <p id="city">Search a city's: </p> 
+                        </h3> 
+                            <ul class="list-group">
+                                    <li class="list-group-item" id="temperature">Temperature</li>
+                                    <li class="list-group-item" id="humidity">Humidity</li>
+                                    <li class="list-group-item" id="windspeed">Wind speed</li>
+                                    <li class="list-group-item" id="uvindex"><span id="uvindex">UV index</span></li>
+                                    </ul>
+                                    <br>
+                                    <h4 class="display-4">5 day forecast: </h4>
+                                    <div class="jumbotron jumbotron-fluid">
+                                        <div class="container">
+        
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <p id="5daydate1"></p>
+                                                        <p id="5dayimage1"></p>
+                                                        <img id=image1>
+                                                        <p id="5daytemp1"></p>
+                                                        <p id="5dayhumid1"></p>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <p id="5daydate2"></p>
+                                                        <p id="5dayimage2"></p>
+                                                        <img id=image2>
+                                                        <p id="5daytemp2"></p>
+                                                        <p id="5dayhumid2"></p>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <p id="5daydate3"></p>
+                                                        <p id="5dayimage3"></p>
+                                                        <img id=image3>
+                                                        <p id="5daytemp3"></p>
+                                                        <p id="5dayhumid3"></p>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <p id="5daydate4"></p>
+                                                        <p id="5dayimage4"></p>
+                                                        <img id=image4>
+                                                        <p id="5daytemp4"></p>
+                                                        <p id="5dayhumid4"></p>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <p id="5daydate5"></p>
+                                                        <p id="5dayimage5"></p>
+                                                        <img id=image5>
+                                                        <p id="5daytemp5"></p>
+                                                        <p id="5dayhumid5"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    </div>
+        
+                </div>
+            </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src = "main.js"></script>
+    
 </body>
 </html>
