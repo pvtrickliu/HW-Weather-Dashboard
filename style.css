@@ -1,13 +1,9 @@
 
-#header {
+#nav-bar {
     background-color: black;
     text-align: center;
     color: aliceblue;
     padding: 20px;
-}
-
-#hellobutton {
-    text-align: left;
 }
 
 .forecastC {
